@@ -63,10 +63,10 @@ const LandingPage: React.FC<LandingPageProps> = ({ setCurrentPage }) => {
         <h2 className="text-3xl font-semibold mb-6 text-center">How It Works</h2>
         <div className="grid md:grid-cols-4 gap-8">
           <Step number={1} title="Upload">
-            Upload your image(s) using our simple drag-and-drop interface.
+            Select the desired tool: Convert, Transform, or Crop.
           </Step>
           <Step number={2} title="Choose Tool">
-            Select the desired tool: Convert, Transform, or Crop.
+            Upload your image(s) using our simple drag-and-drop interface.
           </Step>
           <Step number={3} title="Process">
             Adjust settings and apply changes to your images.
